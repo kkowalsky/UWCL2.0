@@ -1,0 +1,224 @@
+#wrapper{
+	width:100%;
+	height:100%;
+	position:fixed;
+	top:0px;
+	left:0px;
+	font-family: 'Roboto Slab', serif;
+	overflow:scroll;
+}
+#sidebar{
+	height:100%;
+	width: 200px;
+	/*background-color:#000000;*/
+	text-align: left;
+	float:left;
+	position:fixed;
+}
+#noopac a:link{
+	opacity:1.0;
+}
+#nav{
+	margin-left:30px;
+	list-style:none;
+}
+#nav ul li{
+	display:inline;
+}
+
+#logo{
+	padding-top:50px;
+	padding-bottom:50px;
+}
+
+#sidebar a {
+	margin-left:25px;
+	font-size:14px;
+}
+#sidebar ul li a{
+	font-size:10px;
+	list-style:none;
+}
+
+#content{
+	margin-left:230px;
+}
+p {
+	margin-left:auto;
+	margin-right:auto;
+	width:650px;
+}
+#contentHome{
+	margin-left:auto;
+	margin-right:auto;
+}
+.contact{
+	text-align:center;
+}
+.student{
+	margin-bottom:75px;
+	margin-top:20px;
+}
+.student img{
+	float:left;
+	padding-right:15px;
+}
+
+.img img{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.floatImg{
+	float:left;		
+}
+
+.inline{
+	display:inline-block;
+	font-size:14px;
+	padding-left:10px;
+}
+
+
+h6.indent{
+	text-decoration:none;
+}
+
+a:link{
+	color:#000;
+	opacity: .5;
+}
+a:hover{
+	font-color:#000;
+	opacity: 1.0;
+}
+a:visited{
+	color:#00F;
+}
+
+#sidebar a:visited{
+	color:#000;
+}
+img.social{
+	height:25px;
+	width:25px;
+}
+
+img.socialBio{
+	height:25px;
+	width:25px;
+}
+
+#intro {
+	margin-left:auto;
+	margin-right:auto;
+	width:750px;
+	font-size:24px;
+	padding-left:100px;
+}
+h2{
+	/*margin-left:30px;*/
+	border-bottom-style:solid;
+	border-bottom:thin solid #f00;
+	width:100%;
+}
+
+#portfolioimg{
+	margin-left:30px;
+}
+
+.image{
+	margin-left:30px;
+}
+
+.indent{
+	margin:30px;
+}
+
+.margin{
+
+margin-right:auto;
+margin-left:auto;
+}
+
+h1{
+	border-bottom-style:solid;
+	border-bottom:thin solid #f00;
+	width:100%;
+}
+
+.alum{
+	float:left;
+	width:200px;
+	display:inline;
+	padding:10px;
+}
+
+.alum img{
+	height:98px;
+	width:200px;
+}
+
+.alum li{
+	list-style:none;
+	text-align:center;
+}
+
+/*Code pulled for homepage slider*/
+#s3slider {
+    width: 550px; /* important to be same as image width */
+    height: 450px; /* important to be same as image height */
+    position: relative; /* important */
+    overflow: hidden; /* important */
+	margin-right:auto;
+	margin-left:auto;
+}
+ 
+#s3sliderContent {
+    width: 500px; /* important to be same as image width or wider */
+	position: absolute; /* important */
+    top: 0; /* important */
+    margin-left: 0; /* important */
+}
+ 
+.s3sliderImage {
+    float: left; /* important */
+    position: relative; /* important */
+    display: none; /* important */
+	list-style-type:none;
+}
+ 
+.s3sliderImage span {
+    position: absolute; /* important */
+    left: 0;
+    font: 10px/15px Arial, Helvetica, sans-serif;
+    padding: 10px 13px;
+    width: 500px;
+    background-color: #000;
+    filter: alpha(opacity=0); /* here you can set the opacity of box with text */
+    -moz-opacity: 0.0; /* here you can set the opacity of box with text */
+    -khtml-opacity: 0.0; /* here you can set the opacity of box with text */
+    opacity: 0.0; /* here you can set the opacity of box with text */
+    color: #fff;
+    display: none; /* important */
+    top: 0; /*
+        if you put top: 0;  -> the box with text will be shown 
+                                at the top of the image
+        if you put bottom: 0;  -> the box with text will be shown 
+                                at the bottom of the image
+    */
+}
+ 
+.clear {
+    clear: both;
+}
+
+.top {
+	top: 0;
+	left: 0;
+}
+
+strong{
+	font-size:24px;
+}
+/* End slider css*/
