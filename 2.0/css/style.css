@@ -233,8 +233,8 @@ blockquote.feed cite {
 
 .intro-image {
     width: auto;
-    height: 100px;
-    background: #fff url('../img/intro-image.jpg') no-repeat center top;
+    height: 300px;
+    background: #fff url("../actual_images/stamen_watercolor.png") no-repeat center top;
     background-size: cover;
 }
 
