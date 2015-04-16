@@ -639,6 +639,14 @@ nav.navigation select {
     width:100%;
     z-index:999;
     padding:0;
+    margin-left: auto; 
+    margin-right: auto; 
+    padding-bottom:2%
+}
+
+.socialbar_mini a {
+    padding:3%;
+    
 }
 
 .ssm {
@@ -647,7 +655,7 @@ nav.navigation select {
     overflow:hidden;
     font-size:0;
     margin:0;
-    padding:0;
+    padding:50;
 }
 
 .ssm li {
@@ -880,7 +888,7 @@ nav.navigation select {
 .ssm li.youtube {
     background-position:0 -1380px;
 }
-
+3
 .ssm li.youtube:hover {
     background-position:0 -1410px;
 }
