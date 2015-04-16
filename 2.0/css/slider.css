@@ -483,7 +483,7 @@
 
 .slider .carousel .carousel-caption h2 {
     display: inline-block;
-    background-color: rgba(255,60,0,0.8);
+    background-color: #b70101;
     color: #FFF;
     padding: 0 20px;
     margin: 0;
@@ -598,7 +598,7 @@
 ================================================== */
 
 .parallax {
-    background: rgba(255,60,0,0.8);
+    background: rgba(183,1,1,0.85);
     overflow: hidden;
     z-index: 0;
 }

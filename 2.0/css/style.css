@@ -111,7 +111,7 @@ hr {
 	box-shadow: 0 1px rgba(255,255,255,0.5);
 }
 
-pre {
+pre { 
     width:auto;
     overflow:auto;
     margin:18px 0;
@@ -130,7 +130,7 @@ pre code {
     font-size:12px;
     line-height:20px;
 }
-
+ 
 code {
     color:#706557;
     background-color:#fdfcf7;
@@ -448,7 +448,7 @@ nav.navigation ul li ul li a {
 
 nav.navigation ul li ul li a:hover {
 	border: none;
-    background-color: #FF4000;
+    background-color: #b70101;
     color: #FFF;
 	
 	-webkit-transition: all 0.2s linear;
@@ -1512,10 +1512,10 @@ ul.footer-list li a:hover {
 */
 
 ::selection {
-	background: #FFE0CC;
+	background: #b70101;
 }
 ::-moz-selection {
-	background: #FFE0CC;
+	background: #b70101;
 }
 
 .min-height { height: 200px; }
