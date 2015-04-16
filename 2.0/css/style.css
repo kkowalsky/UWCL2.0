@@ -1,10 +1,6 @@
 /* ==========================================================================
    General Styles
    ========================================================================== */
-.socialbar_mini {
-    padding: 3%;
-}
-
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite,  del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {	margin:0px; 
 	padding:0px; 
 	border:0px; 
@@ -100,6 +96,10 @@ h5 {
 }
 
 h1.title { font-size: 60px; line-height: 65px; font-weight: 300; }
+
+.socialbar_mini a {
+    padding: 3%;
+}
 
 /*
  * Customizing blockquote, code, pre and hr
