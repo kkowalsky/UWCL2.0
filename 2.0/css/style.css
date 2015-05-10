@@ -610,7 +610,7 @@ nav.navigation select {
 
 #portfolio-filter li a:hover,
 .portfolio #filters li a.active {
-	background: #F60;
+	background: #B70101;
 	color: #fff;
 }
 
@@ -664,7 +664,7 @@ nav.navigation select {
 .portfolio .item:hover img {
 	opacity: 1;
 	filter: alpha(opacity=100);
-	border: 1px solid #f60;
+	border: 1px solid #B70101;
 	
 	-webkit-transition: all 0.2s linear;
 	-moz-transition: all 0.2s linear;
@@ -680,7 +680,7 @@ nav.navigation select {
 }
 
 .portfolio .item:hover {
-	border-bottom: 2px solid #F60;
+	border-bottom: 2px solid #B70101;
     background-color: whiteSmoke;
 }
 
